@@ -1,0 +1,31 @@
+.login_part{position:relative; left:0px; top:0px; width:100%; height:600px;display: flex; align-items: center; overflow:hidden; margin-top:120px;}
+.login_part .huge_image{position:relative; left:0px; top:0px; width:100%; }
+
+.login_part .login_shadow{position:absolute; left:0px; top:0px; width:100%; height:100%; }
+.login_part .login_shadow .login_wrapper{position:absolute; width:520px; height:300px; left:calc(50% - 260px); top:calc(50% - 150px); border:2px solid #333; border-top:none; border-radius:5px;}
+.login_part .login_shadow .login_wrapper .top_line{position:absolute; left:0px; top:-0px; width:40px; height:2px; background:#333;}
+.login_part .login_shadow .login_wrapper .login_image{position:absolute; text-align:center; left:50px; width:70px; height:70px; border-radius: 50%; border:2px solid #333; top:-35px;}
+.login_part .login_shadow .login_wrapper .login_image i{color:#333; font-size:30px; margin-top:18px; margin-left:8px;}
+.login_part .login_shadow .login_wrapper .right_line{position:absolute; right:0px; top:0px; width:calc(100% - 132px); height:2px; background:#333;}
+
+.login_part .login_shadow .login_wrapper .input_wrapper{position:relative; left:20px; top:30px; margin-top:20px; width:calc(100% - 40px); height:36px; border:1px solid #333; background:#fff; border-radius:3px;}
+.login_part .login_shadow .login_wrapper .input_wrapper_zero{border:none; background:none; margin-top:50px;}
+.login_part .login_shadow .login_wrapper .input_wrapper_zero_2{margin-top:30px;}
+.login_part .login_shadow .login_wrapper .input_wrapper .input_field{position:absolute; left:0px; top:0px; width:100%; height:100%; border:none; background:none; font-family:poppins_r; padding-left:20px; outline:none;}
+
+.login_part .login_shadow .login_wrapper .input_wrapper_zero .register_part{position:absolute; left:0px; top:3px;width:220px; height:36px; text-align:center; background:#333; border-radius:3px;}
+.login_part .login_shadow .login_wrapper .input_wrapper_zero .register_part a{text-decoration:none;}
+.login_part .login_shadow .login_wrapper .input_wrapper_zero .register_part a p{color:#fff; font-family:poppins_r; font-size:14px; margin-left:0px; margin-top:8px;}
+.login_part .login_shadow .login_wrapper .input_wrapper_zero .submit_part{position:absolute; right:0px; top:3px; width:220px; height:36px; background:#333; border-radius:3px;}
+.login_part .login_shadow .login_wrapper .input_wrapper_zero .submit_part input{position:absolute; left:0px; top:1px; width:100%; height:100%; text-align:center; padding-right:0px; background:none; border:none; color:#fff; font-family:poppins_r;}
+.login_part .login_shadow .login_wrapper .input_wrapper_zero .submit_part input:hover{cursor:pointer;}
+
+.menu_top{border-bottom:1px solid rgba(0,0,0,0.2);}
+.menu_top .name_of_it{border-right:1px solid rgba(0,0,0,0.2);}
+.menu_top .menu_icons{border-left:1px solid rgba(0,0,0,0.2);}
+.menu_top .name_of_it h1{color:#333;}
+.menu_top .menu_links p{color:#333;}
+.menu_top .menu_icons .icon_w i{color:#333;}
+
+
+

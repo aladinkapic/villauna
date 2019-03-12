@@ -1,0 +1,86 @@
+.table_5_rows{position:relative; left:0px; top:0px; width:100%; height:auto; background:#fff; border-radius:3px; overflow:hidden; margin-top:20px; padding-bottom:30px;}
+
+.table_5_rows .table_5_row{position:relative; left:15px; top:15px; width:calc(100% - 30px); border:1px solid rgba(0,0,0,0.05); height:40px;}
+.table_5_rows .table_5_row_0{ height:50px; background:rgba(0,0,0,0.02);}
+.table_5_rows .table_5_row_1{ border-top:none;}
+
+.table_5_rows .table_5_row .table_5_col{position:relative; left:0px; top:0px; width:calc(20% - 4px); height:40px; display:inline-block;}
+.table_5_rows .table_5_row .not_the_last{width:calc(25% - 4px);}
+.table_5_rows .table_5_row .last_one{display:none;}
+
+/** bills **/
+.table_5_rows .table_5_row .bill_hidden{display:none;}
+.table_5_rows .table_5_row .cart_part{width:40px; text-align:center; }
+.table_5_rows .table_5_row .bill_show{width:calc(100% - 430px);}
+.table_5_rows .table_5_row .bill_show_1{width:180px;}
+
+/** my services **/
+
+
+.table_5_rows .table_5_row .table_4_col{width:calc(25% - 4px);}
+.table_5_rows .table_5_row .table_5_col_0, .table_5_rows .table_5_row .table_5_col_1, .table_5_rows .table_5_row .table_5_col_2, .table_5_rows .table_5_row .table_5_col_3{border-right:1px solid rgba(0,0,0,0.05);}
+
+.table_5_rows .table_5_row .table_5_col p{position:absolute; left:15px; font-weight:bold; margin:0px; font-family:apple_t; top:10px; width:calc(100% - 30px);}
+.table_5_rows .table_5_row .table_5_col_1{text-align:center;}
+.table_5_rows .table_5_row_0 .table_5_col p{top:15px;}
+.table_5_rows .table_5_row_1 .table_5_col p{font-size:14px; font-weight:lighter;}
+
+/** edit or delete domains icons **/
+.table_5_rows .table_5_row .table_5_col_4{text-align:center;}
+.table_5_rows .table_5_row .table_5_col_5 p{margin:0px; letter-spacing: 3px;}
+.table_5_rows .table_5_row .table_5_col_5 p i:hover{cursor:pointer;}
+.table_5_rows .table_5_row .table_5_col_5 p .fa-trash-alt:hover{color:#C52932;}
+.table_5_rows .table_5_row .table_5_col_5 p .fa-edit:hover{color:#3f6ad8;}
+
+
+.table_5_rows .table_5_row .table_5_col .table_5_col_button{position:relative; width:120px; left:calc(50% - 60px); height:22px; top:9px; border-radius:3px;}
+.table_5_rows .table_5_row .table_5_col .table_5_col_button_a{background:#5cb85c;}
+.table_5_rows .table_5_row .table_5_col .table_5_col_button_i{background:#FF0D53;}
+.table_5_rows .table_5_row .table_5_col .table_5_col_button_w{background:gold;}
+.table_5_rows .table_5_row .table_5_col .table_5_col_button p{top:2px; text-align:center; text-align:center; margin:0px; color:#fff; font-weight:bold;}
+
+.table_5_rows .table_5_row .table_5_col .extra_title{position:absolute; left:0px; width:150px;}
+
+/******************************** mobile ***********************************/
+.table_5_rows .table_5_row .table_5_col .extra_title{display:none;}
+
+@media screen and (max-width: 1200px){
+    #left_menu{left:-320px;}
+    .table_5_rows .table_5_row .fixed_width_2{width:80px; }
+    .table_5_rows .table_5_row .not_the_last{width:calc(100% - 476px);}
+    .table_5_rows .table_5_row .fixed_width{width:180px; text-align:center;}
+    .table_5_rows .table_5_row .fixed_width_2{width:100px; text-align:center;}
+    .table_5_rows .table_5_row .table_5_col .table_5_col_button{width:100%; left:0px;}
+}
+
+
+@media screen and (max-width: 1000px){
+    .table_5_rows .table_5_row{height:160px;}
+    .table_5_row_0{display:none;}
+
+    .table_5_rows .table_5_row .table_5_col{width:100%; text-align:left;}
+    .table_5_rows .table_5_row .table_5_col p{margin-left:135px;}
+    .table_5_rows .table_5_row .table_5_col .extra_title{display:block;}
+    .table_5_rows .table_5_row .table_5_col .extra_title p{margin-left:0px; height:135%; }
+    .table_5_rows .table_5_row .table_5_col .extra_title { border-right:1px solid rgba(0,0,0,0.1); height:100%; width:135px;}
+    .hidden_domain_port{display:block;}
+    .table_5_rows .table_5_row .table_5_col .table_5_col_button{left:20px; width:calc(100% - 40px);}
+    .table_5_rows .table_5_row .table_5_col .table_5_col_button{width:calc(100% - 180px); left:135px; text-align:left; background:none;}
+    .table_5_rows .table_5_row .table_5_col .table_5_col_button p{text-align:left; color:#333; margin-left:0px;}
+
+
+    /** my services **/
+    .table_5_rows .table_5_row .hidden_for_mobile{display:none;}
+
+}
+
+
+
+
+
+
+
+
+
+
+

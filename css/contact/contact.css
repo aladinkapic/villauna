@@ -1,0 +1,72 @@
+#google_map{position:relative; left:0px; top:0px; width:100%; height:500px; margin-top:100px;}
+
+.contact_part{position:relative; left:0px; width:100%;  background:rgba(0,0,0,0.05);}
+
+.contact_part .contact_form_header{position:relative; left:calc(50% - 600px); width:1200px; height:80px; }
+.contact_part .contact_form_header h1{font-family:poppins_r; margin-top:0px; padding-top:14px;}
+
+.contact_part .contact_form{position:relative; left:calc(50% - 600px); width:1200px; height:auto; display:flex; flex-wrap:wrap; padding-top:0px; padding-bottom:30px;}
+.contact_part .contact_form .contact_form_part{position:relative; left:0px; top:0px; width:420px; height:auto; }
+
+.contact_part .contact_form .contact_form_f{width:calc(100% - 420px); }
+.contact_part .contact_form .contact_form_f h2,
+.contact_part .contact_form .contact_form_f h4{font-family:poppins_r;}
+.contact_part .contact_form .contact_form_f h4{margin-bottom:30px;}
+.contact_part .contact_form .contact_form_f .contact_input{position:relative; margin-bottom:20px; left:0px; top:0px; width:calc(100% - 40px); height:40px; border:1px solid rgba(0,0,0,0.1);}
+.contact_part .contact_form .contact_form_f .contact_input input,
+.contact_part .contact_form .contact_form_f .contact_input textarea{position:absolute; left:0px; top:0px; width:100%; height:100%; border:none; font-family:poppins_r; padding-left:20px;}
+.contact_part .contact_form .contact_form_f .contact_input textarea{padding-top:10px; resize:none;}
+
+.contact_part .contact_form .contact_form_f .contact_input_2{height:160px;}
+.contact_part .contact_form .contact_form_f .contact_input_3{width:220px; background:#f18024; height:36px;}
+.contact_part .contact_form .contact_form_f .contact_input_3 input{background:none; font-family:poppins_r; font-size:16px; color:#fff;}
+.contact_part .contact_form .contact_form_f .contact_input_3 input:hover{cursor:pointer;}
+
+
+
+.contact_part .contact_form .contact_form_r h4{font-family:poppins_r; font-size:22px; margin-top:20px;}
+.contact_part .contact_form .contact_form_r p{font-family:poppins_r;  margin-top:0px; margin-bottom:0px;}
+
+#footer{margin-top:0px;}
+
+.menu_top{border-bottom:1px solid rgba(0,0,0,0.2);}
+.menu_top .name_of_it{border-right:1px solid rgba(0,0,0,0.2);}
+.menu_top .menu_icons{border-left:1px solid rgba(0,0,0,0.2);}
+.menu_top .name_of_it h1{color:#333;}
+.menu_top .menu_links p{color:#333;}
+.menu_top .menu_icons .icon_w i{color:#333;}
+
+@media screen and (max-width: 1200px){
+    .contact_part .contact_form{left:50px; width:calc(100% - 100px);}
+}
+
+@media screen and (max-width: 1000px){
+    .contact_part .contact_form .contact_form_part{width:100%;}
+}
+
+
+@media screen and (max-width: 800px){
+    .contact_part .contact_form{left:20px; width:calc(100% - 40px);}
+    .contact_part .contact_form .contact_form_f .contact_input{width:100%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

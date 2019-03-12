@@ -1,0 +1,102 @@
+.menu_top{position:absolute; left:0px; top:0px; width:100%; height:100px; z-index:100; border-bottom:1px solid rgba(255,255,255,0.2);}
+
+/* .menu_top .menu_body{position:relative; left:calc(50% - 600px); width:1200px; height:100%;}
+.menu_top .menu_body h1{position:absolute; left:0px; font-family:poppins_r; letter-spacing:3px; font-size:38px; color:#fff; margin-top:0px; top:52px;}
+
+.menu_top .menu_top{position:absolute; right:0px; top:0px; width:100%; height:40px; text-align:right;}
+.menu_top .menu_top p{font-family:poppins_t; color:#fff; display:inline-block; margin-top:10px; margin-left:40px;}
+.menu_top .menu_top p i{margin-right:5px;}
+
+.menu_top .menu_links{position:absolute; right:0px; top:60px; height:40px; width:calc(100% - 200px); text-align:right;} */
+
+
+
+.menu_top .name_of_it{position:absolute; left:0px; top:0px; width:300px; height:100%; border-right:1px solid rgba(255,255,255,0.2);}
+.menu_top .name_of_it h1{position:absolute; left:60px; font-family:poppins_m; color:#fff; margin-top:24px; letter-spacing:1px; font-size:40px;}
+
+.menu_top .menu_links{position:absolute; right:400px; top:30px; height:40px; width:calc(100% - 800px); text-align:right; display:inline-block;}
+.menu_top .menu_links .just_mobile{display:inline-block;}
+.menu_top .menu_links p{display:inline-block; font-family:poppins_r;  color:#fff; margin-right:30px; margin-top:10px;}
+.menu_top .menu_links p:hover{color:#f18024;}
+
+.menu_top .menu_icons{position:absolute; right:60px; top:0px; height:100%; width:240px; border-left:1px solid rgba(255,255,255,0.2); text-align:right;}
+.menu_top .menu_icons .icon_w{position:relative; display:inline-block; width:40px; height:40px; top:30px; }
+.menu_top .menu_icons .icon_w i{color:#fff; font-size:20px; margin-top:10px;}
+.menu_top .menu_icons .icon_w i:hover{color:#f18024; cursor:pointer;}
+
+.mobile_menu{position:absolute; left:80px; top:30px; width:40px; height:40px; display:none;}
+.mobile_menu i{color:#fff; margin-top:13px;}
+
+
+.chat_icon{position:fixed; right:30px; bottom:30px; width:40px; height:40px; z-index:1000; background:#fff; border-radius:3px; text-align:center; -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75); -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75); box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);}
+.chat_icon:hover{cursor:pointer;}
+.chat_icon i{font-size:22px; color:#f18024; margin-top:8px;}
+
+.full_chat{position:fixed; right:30px; bottom:30px; width:300px; height:380px; background:#fff; z-index:2000;  -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75); -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75); box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);}
+.full_chat_hidden{display:none;}
+.full_chat .chat_header{position:absolute; left:0px; top:0px; width:100%; height:50px; background:#f18024;}
+.full_chat .chat_header p{font-family:poppins_r; margin-left:15px; margin-top:13px; color:#fff;}
+.full_chat .chat_header i{position:absolute; right:15px; top:15px; font-size:20px; color:#fff;}
+.full_chat .chat_header i:hover{color:#FF0D53; cursor:pointer;}
+
+
+.full_chat .chat_body{position:absolute; left:0px; top:50px; width:100%; height:calc(100% - 100px); background:rgba(0,0,0,0.05); overflow: auto; padding-top:10px;}
+.full_chat .chat_body .message{position:relative; left:10px; top:0px; margin-bottom:10px; width:calc(100% - 100px); min-height:46px; }
+.full_chat .chat_body .message .img_w{position:absolute; left:3px; top:3px; width:38px; height:38px; border:1px solid #f18024; -webkit-border-radius: 50%;  -moz-border-radius: 50%; border-radius: 50%;}
+.full_chat .chat_body .message .img_w img{position:absolute; left:0px; top:0px; right:0px; bottom:0px; width:20px; margin:auto;}
+.full_chat .chat_body .message .message_p{position:relative; left:50px; top:0px; max-width:calc(100% - 50px); background:#fff; width:auto; padding:10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+.full_chat .chat_body .message p{font-family:poppins_r; font-size:13px; margin:0px; display:inline-block; }
+
+.full_chat .chat_body .right_message{text-align:right; left:100px;}
+.full_chat .chat_body .right_message .message_p{left:0px; }
+
+
+
+.full_chat .chat_body .input_form{position:relative; left:30px; top:30px; width:calc(100% - 60px); height:30px; border:1px solid rgba(0,0,0,0.1);  margin-bottom:10px;}
+.full_chat .chat_body .input_form2{border:none;}
+.full_chat .chat_body .input_form input{position:absolute; left:0px; top:0px; width:100%; height:100%; padding-left:20px; border:none; font-family:poppins_r;}
+.full_chat .chat_body .input_form2 input{padding:0px; color:#fff; background:#f18024; font-size:17px;}
+.full_chat .chat_body .input_form2 input:hover{cursor:pointer;}
+
+
+
+
+
+
+
+.full_chat .chat_send{position:absolute; left:0px; bottom:0px; width:100%; height:50px;}
+.full_chat .chat_send input{position:absolute; left:15px; top:10px; width:calc(100% - 60px); height:30px; border:1px solid rgba(0,0,0,0.0); padding-left:20px;}
+.full_chat .chat_send .send_w{position:absolute; right:15px; top:10px; width:30px; height:28px; border:1px solid rgba(0,0,0,0.0); border-left:none; text-align:center;}
+.full_chat .chat_send .send_w i{color:#f18024; margin-top:6px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1500px){
+    .menu_top .name_of_it{width:260px;}
+    .menu_top .name_of_it h1{left:40px; font-size:35px; margin-top:23px;}
+    .menu_top .menu_icons{right:40px; width:200px;}
+    .menu_top .menu_links{right:300px;  width:calc(100% - 580px);}
+}
+
+@media only screen and (max-width: 1200px){
+    .menu_top .menu_icons{width:150px;}
+    .menu_top .menu_links{right:200px; width:calc(100% - 460px);}
+    .menu_top .menu_links p{margin-right:20px;}
+}
+
+
+

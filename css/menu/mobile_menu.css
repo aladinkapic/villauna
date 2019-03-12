@@ -1,0 +1,29 @@
+/*** Mobile version ***/
+
+@media only screen and (max-width: 1000px){
+    .menu_top{position:fixed; background:#333;}
+    .menu_top .name_of_it{width:240px; text-align:center; left:calc(50% - 120px); border:none;}
+    .menu_top .name_of_it h1{position:relative; left:0px;}
+
+    .menu_top .menu_icons{border:none; right:80px;}
+    .menu_top .menu_icons .icon_w i{font-size:15px; margin-top:13px;}
+
+    .mobile_menu{display:block;}
+    .menu_top .menu_links{top:100px;  background:#333; height:auto; right:0px; width:100%;}
+
+    .menu_top .menu_links{text-align:left; padding-bottom:30px; display:none;}
+    .menu_top .menu_links .just_mobile{position:relative; left:80px; width:calc(100% - 160px); height:50px; border-bottom:1px solid rgba(255,255,255,0.1);}
+    .menu_top .menu_links .just_mobile p{font-size:15px; margin-top:15px;}
+
+    .menu_top .name_of_it h1{color:#fff;}
+    .menu_top .menu_links p{color:#fff;}
+    .menu_top .menu_icons .icon_w i{color:#fff;}
+}
+
+@media only screen and (max-width: 600px){
+    .menu_top .menu_icons{right:30px;}
+    .menu_top .menu_icons .icon_w_news,
+    .menu_top .menu_icons .icon_mail{display:none;}
+    .menu_top .menu_links .just_mobile{left:30px; width:calc(100% - 60px);}
+    .mobile_menu{left:30px;}
+}

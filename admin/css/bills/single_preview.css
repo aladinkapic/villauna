@@ -1,0 +1,61 @@
+body{background:rgba(0,0,0,0.1);}
+
+
+.bill{position:absolute; width:900px; left:calc(50% - 450px); padding-bottom:40px; background:#fff; top:30px; border:1px solid rgba(0,0,0,0.2); border-radius:5px;}
+
+.bill .bill_header{position:relative; left:60px; margin-top:60px; width:calc(100% - 120px); height:260px; border-bottom:1px solid rgba(0,0,0,0.1);}
+
+.bill .bill_header .bill_header_left{position:absolute; left:0px; top:0px; width:400px; height:100%;}
+.bill .bill_header .bill_header_left .bill_header_left_img{position:absolute; left:0px; top:0px; width:100%; height:85px;}
+.bill .bill_header .bill_header_left .bill_header_left_img img{position:absolute; left:0px; top:0px; height:100%;}
+.bill .bill_header .bill_header_left .bill_header_left_hash{position:absolute; left:0px; top:120px; width:400px; height:40px;}
+.bill .bill_header .bill_header_left .bill_header_left_hash h3{margin:0px; font-family:apple_t;}
+
+.bill .bill_header .bill_header_right{position:absolute; right:0px; top:0px; width:320px; height:100%; text-align:center;}
+.bill .bill_header .bill_header_right .status_wrapper{position:relative; width:300px; height:50px; border:2px solid red;}
+.bill .bill_header .bill_header_right .status_wrapper2{border:2px solid #5cb85c;}
+.bill .bill_header .bill_header_right h4{font-size:25px; font-family:apple_t; margin:0px; margin-top:10px;}
+.bill .bill_header .bill_header_right .green{color:#5cb85c;}
+.bill .bill_header .bill_header_right .red{color:red;}
+.bill .bill_header .bill_header_right p{font-family:apple_t; margin-top:10px; margin-bottom:0px;}
+
+
+.bill .bill_body{position:relative; left:60px; top:0px; width:calc(100% - 120px); margin-top:20px; height:220px; border-bottom:1px solid rgba(0,0,0,0.1);}
+.bill .bill_body .bill_body_left{position:absolute; left:0px; top:0px; width:400px; height:100%;}
+.bill .bill_body .bill_body_left p{font-family:apple_t; margin-top:10px; margin-bottom:0px;}
+.bill .bill_body .bill_body_left p span{font-weight:bold; font-size:18px;}
+
+.bill .bill_body .bill_body_right{position:absolute; right:0px; top:0px; width:calc(100% - 400px); height:100%; text-align:right;}
+.bill .bill_body .bill_body_right p{font-family:apple_t; margin-top:10px; margin-bottom:0px;}
+.bill .bill_body .bill_body_right p span{font-weight:bold; font-size:18px;}
+
+
+.bill .bill_objects{position:relative; left:60px; top:0px; width:calc(100% - 120px); border:1px solid rgba(0,0,0,0.1); border-radius:3px; overflow:hidden; margin-top:20px; border-bottom:1px solid rgba(0,0,0,0.1);}
+.bill .bill_objects .line{position:relative; left:0px; top:0px; width:100%; height:1px; background:rgba(0,0,0,0.1);}
+.bill .bill_objects .bill_object{position:relative; left:0px; top:0px; width:100%; height:40px;}
+.bill .bill_objects .bill_object .bill_object_m{position:relative; display:inline-block; left:0px; top:0px; width:calc(100% - 230px); height:100%;}
+.bill .bill_objects .bill_object .bill_object_r{width:220px; border-left:1px solid rgba(0,0,0,0.1);}
+.bill .bill_objects .bill_object .bill_object_m p{font-family:apple_t; position:absolute; left:20px; margin-top:12px;}
+.bill .bill_objects .bill_object_h{background:rgba(0,0,0,0.1);}
+
+.bill .bill_objects .bill_object .bill_object_c p{left:0px; width:calc(100% - 20px); text-align:right; font-size:15px; font-weight:bold;}
+.bill .bill_objects .bill_object .bill_object_d p{font-size:15px; font-weight:bold;}
+
+
+.bill .footer_desc{position:relative; left:60px; top:0px; text-align:justify; width:calc(100% - 120px); height:60px; display:none;}
+.bill .footer_desc p{font-family:apple_t; font-size:14px; }
+
+.bill .buttons{position:relative; left:60px; top:0px; width:calc(100% - 120px); height:32px; text-align:right; margin-top:30px;}
+.bill .buttons .button{position:relative; left:0px; top:0px; height:100%; display:inline-block; border:1px solid rgba(0,0,0,0.2); border-radius:3px;}
+.bill .buttons .button:hover{cursor:pointer;}
+.bill .buttons .button p{margin:0px 10px; font-family:apple_t; font-weight:bold; margin-top:9px; font-size:13px; margin-right:15px;}
+.bill .buttons .button p i{font-size:12px; margin-right:5px;}
+
+
+
+@media print{
+    .bill .buttons{display:none !important;}
+    .bill .bill_body, .bill .bill_header{border-bottom:1px solid rgba(0,0,0,0.5); !important;}
+    .bill .bill_objects{border:1px solid rgba(0,0,0,0.5); !important;}
+    .bill .footer_desc{display:block;}
+}

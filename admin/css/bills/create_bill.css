@@ -1,0 +1,159 @@
+.create_body{position:relative; left:0px; top:30px; width:100%; height:auto; background:#fff; padding-top:30px; border-radius:3px; padding-bottom:30px;}
+
+.create_body .get_company{position:relative; left:15px; top:0px; width:calc(100% - 30px); height:40px; border:2px solid rgba(0,0,0,0.15);}
+.create_body .get_company input{position:absolute; left:0px; top:0px; width:calc(100% - 220px); height:100%; border:none; background:none; padding-left:20px; outline:none;}
+
+.create_body .get_company .get_company_b{position:absolute; right:-2px; top:-2px; width:220px; height:calc(100% + 4px); background:#3f6ad8;}
+.create_body .get_company .get_company_b .save_icon_show{display:none; position:absolute; left:0px; top:0px; width:100%; text-align:center;}
+.create_body .get_company .get_company_b .save_icon_show i{color:#fff; margin-top:12px;}
+.create_body .get_company .get_company_b input{width:100%; color:#fff; padding:0px;}
+.create_body .get_company .get_company_b input:hover,
+.create_body .get_company .get_company_b i{cursor:pointer;}
+
+.create_body .get_company .show_companies{position:absolute; left:-2px; top:calc(100% + 2px); display:none; width:calc(100% - 220px); height:300px; border:2px solid rgba(0,0,0,0.1); border-top:none; background:#fff; z-index:1000;}
+.create_body .get_company .show_companies .single_company{position:relative; left:0px; top:0px; width:100%; height:40px; overflow:auto;}
+.create_body .get_company .show_companies .single_company:hover{cursor:pointer; background:rgba(0,0,0,0.05);}
+.create_body .get_company .show_companies .single_company p{position:absolute; left:20px; margin:0px; font-family:apple_t; top:10px;}
+.create_body .get_company .show_companies .single_company i{position:absolute; right:20px; top:12px;}
+
+
+
+/** when we set company **/
+
+.create_body .company_username{position:relative; left:15px; top:0px; width:calc(100% - 30px); height:40px; border:2px solid rgba(0,0,0,0.15); border-radius:3px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;}
+.create_body .company_username .company_username_part{position:relative; left:0px; top:0px; width:calc(50% - 120px); display:inline-block; border-right:2px solid rgba(0,0,0,0.1); height:100%;}
+.create_body .company_username .company_username_part p{position:absolute; left:20px; margin:0px; font-family:apple_t; top:12px; font-weight:bold;}
+
+.create_body .company_username .company_username_hash{position:absolute; right:40px; width:200px; height:100%; top:0px; border-right:2px solid rgba(0,0,0,0.1);}
+.create_body .company_username .company_username_hash p{position:absolute; left:20px; margin:0px; font-family:apple_t; font-weight:bold; top:12px; width:100%; text-align:center;}
+
+.create_body .company_username .company_username_delete{position:absolute; right:0px; top:0px; width:40px; height:40px; text-align:center;}
+.create_body .company_username .company_username_delete i{margin-top:12px;}
+.create_body .company_username .company_username_delete i:hover{cursor:pointer; color:#C52932;}
+
+
+
+.create_body .company_categories{position:relative; left:15px; top:0px; width:calc(100% - 30px); height:40px; border:2px solid rgba(0,0,0,0.15); margin-top:20px;}
+.create_body .company_categories_finnish{z-index:0; }
+.create_body .company_categories_finnish:hover{cursor:pointer; background:#5cb85c;}
+.create_body .company_categories_choose{z-index:1000;}
+.create_body .company_categories h5{text-align:center; position:absolute; left:0px; width:100%; font-family:apple_t; font-size:20px; margin-top:10px;}
+.create_body .company_categories_finnish:hover h5{color:#fff;}
+
+.create_body .company_categories .company_username_part{position:relative; left:0px; top:0px; width:calc(50% - 120px); display:inline-block; border-right:2px solid rgba(0,0,0,0.1); height:100%;}
+.create_body .company_categories .company_username_part p{position:absolute; left:20px; margin:0px; font-family:apple_t; top:12px;}
+.create_body .company_categories .company_username_part i{position:absolute; right:20px; top:8px; font-size:24px;}
+.create_body .company_categories .company_username_part i:hover{cursor:pointer;}
+
+.create_body .company_categories .company_username_hash{position:absolute; right:-2px; width:234px; height:calc(100% + 4px); top:-2px; background:#3f6ad8;}
+.create_body .company_categories .company_username_hash:hover{cursor:pointer;}
+.create_body .company_categories .company_username_hash p{position:absolute; left:0px; margin:0px; font-family:apple_t; width:100%; top:12px; text-align:center; color:#fff;}
+.create_body .company_categories .company_username_hash input{position:absolute; left:0px; top:0px; width:100%; height:100%; background:none; border:none; color:#fff;}
+.create_body .company_categories .company_username_hash input:hover{cursor:pointer;}
+.create_body .company_categories .company_username_hash label{position:absolute; display:none; left:0px; top:0px; width:100%; text-align:center;}
+.create_body .company_categories .company_username_hash label i{color:#fff; margin-top:12px;}
+.create_body .company_categories .company_username_hash label i:hover{cursor:pointer;}
+
+
+.create_body .company_categories .all_categories{position:absolute; top:42px; width:calc(50% - 120px); display:none; height:300px; left:-2px; border:2px solid rgba(0,0,0,0.15); border-top:none; background:#fff; overflow:auto;}
+.create_body .company_categories .all_categories_2{left:calc(50% - 120px); width:calc(50% - 116px); }
+.create_body .company_categories .all_categories .category_object{position:relative; left:0px; top:0px; width:100%; height:40px; }
+.create_body .company_categories .all_categories .category_object:hover{cursor:pointer; background:rgba(0,0,0,0.1);}
+.create_body .company_categories .all_categories .category_object p{position:absolute; left:20px; margin:0px; font-family:apple_t; top:12px;}
+.create_body .company_categories .all_categories .category_object i{position:absolute; right:20px; top:14px;}
+
+
+.create_body .all_used_services{position:relative; left:15px; top:0px; width:calc(100% - 30px); margin-top:20px; height:auto; border:2px solid rgba(0,0,0,0.15);}
+.create_body .all_used_services .used_service{position:relative; left:0px; top:0px; width:100%; height:40px; width:100%; }
+
+.create_body .all_used_services .used_service .used_service_part{position:absolute; left:0px; top:0px; width:calc(50% - 120px); height:100%; border-right:2px solid rgba(0,0,0,0.1);}
+.create_body .all_used_services .used_service .used_service_part_2{left:calc(50% - 120px); width:calc(50% - 114px);}
+.create_body .all_used_services .used_service .used_service_part p{position:absolute; left:20px; margin:0px; font-family:apple_t; top:12px; font-size:14px;}
+
+.create_body .all_used_services .used_service .used_service_options{position:absolute; right:0px; top:0px; width:232px; height:100%; text-align:center;}
+.create_body .all_used_services .used_service .used_service_options i{margin-top:12px;}
+.create_body .all_used_services .used_service .used_service_options span{margin:0px 8px; color:#333;}
+
+.create_body .all_used_services .used_service .total_price_pdv{position:absolute; right:0px; top:0px; height:100%; }
+.create_body .all_used_services .used_service .total_price_button{right:240px;}
+.create_body .all_used_services .used_service .total_price_pdv h4{font-family:apple_t; margin-right:20px; margin-top:12px;}
+
+
+
+.create_body .add_domain{position:relative; left:15px; top:0px; width:calc(100% - 30px); height:40px; border:2px solid rgba(0,0,0,0.15); margin-top:10px;}
+.create_body .add_domain .company_username_hash{position:absolute; right:-2px; width:234px; height:calc(100% + 4px); top:-2px; background:#3f6ad8;}
+.create_body .add_domain .company_username_hash input{position:absolute; left:0px; top:0px; width:100%; height:100%; background:none; border:none; color:#fff;}
+.create_body .add_domain .company_username_hash input:hover{cursor:pointer;}
+.create_body .add_domain .company_username_hash label{position:absolute; display:none; left:0px; top:0px; width:100%; text-align:center;}
+.create_body .add_domain .company_username_hash label i{color:#fff; margin-top:12px;}
+.create_body .add_domain .company_username_hash label i:hover{cursor:pointer;}
+
+.create_body .add_domain .add_d_name{position:relative; display:inline-block; left:0px; top:0px; width:calc(50% - 120px); border-right:2px solid rgba(0,0,0,0.15); height:100%;}
+.create_body .add_domain .add_d_name p{font-family:apple_t; margin-left:20px; margin-top:10px; position:absolute;}
+.create_body .add_domain .add_d_name input{position:absolute; left:80px; top:0px; width:calc(100% - 80px); height:100%; border:none; background:none; font-size:16px; padding-top:3px; outline:none;}
+
+.create_body .add_domain .add_d_name i{position:absolute; right:20px; top:8px; font-size:24px;  }
+.create_body .add_domain .add_d_name i:hover{cursor:pointer;}
+
+.create_body .add_domain .add_d_name .add_d_n_small{position:relative;  left:0px; top:0px; width:calc(50% - 4px); display:inline-block; height:100%; border-right:2px solid rgba(0,0,0,0.15);}
+.create_body .add_domain .add_d_name .add_d_n_small1{border:none;}
+.create_body .add_domain .add_d_name .add_d_n_small i{position:absolute; right:15px; font-size:22px; top:10px;}
+.create_body .add_domain .add_d_name .add_d_n_small i:hover{cursor:pointer;}
+
+.create_body .add_domain .add_d_name .all_extensions{position:absolute; left:-6px; top:100%; width:calc(50% - 0px); height:200px; display:none; overflow:auto; background:#fff; border:2px solid rgba(0,0,0,0.15); z-index:100;}
+.create_body .add_domain .add_d_name .all_extensions .single_extension{position:relative; left:0px; top:0px; width:100%; height:40px;}
+.create_body .add_domain .add_d_name .all_extensions .single_extension:hover{background:rgba(0,0,0,0.2); cursor:pointer;}
+
+.create_body .add_domain .add_d_name .all_hostings{position:absolute; left:-2px; top:100%; width:100%; display:none; height:200px; border:2px solid rgba(0,0,0,0.15); z-index:100; background:#fff; }
+.create_body .add_domain .add_d_name .all_hostings .single_host{position:relative; left:0px; top:0px; width:100%; height:40px;}
+.create_body .add_domain .add_d_name .all_hostings .single_host:hover{background:rgba(0,0,0,0.2); cursor:pointer;}
+
+
+
+/******************************** mobile ***********************************/
+
+@media screen and (max-width: 1200px){
+    .create_body .get_company input{width:calc(100% - 40px);}
+
+    /** company name **/
+    .create_body .company_username .company_username_part,
+    .create_body .all_used_services .used_service .used_service_part{width:calc(50% - 72px);}
+    .create_body .all_used_services .used_service .used_service_part_2{left:calc(50% - 72px); width:calc(50% - 66px);}
+    .create_body .company_username .company_username_hash,
+    .create_body .all_used_services .used_service .used_service_options{width:100px; text-align:center; }
+    .create_body .all_used_services .used_service .used_service_options2{width:140px;}
+
+    .create_body .company_username .company_username_hash p,
+    .create_body .company_username .company_username_part p{left:0px; width:100%; font-size:14px;}
+    .create_body .company_username .company_username_part p{left:10px;}
+
+    .create_body .get_company .get_company_b,
+    .create_body .add_domain .company_username_hash{width:40px;}
+    .save_button_dissapear{display:none;}
+    .create_body .add_domain .company_username_hash label,
+    .create_body .company_categories .company_username_hash label{display:block;}
+
+
+    .create_body .get_company .get_company_b .save_icon_show{display:block;}
+
+    .create_body .company_categories_choose .company_categories_minimized,
+    .create_body .add_domain .add_d_name {width:calc(50% - 23px); }
+    .create_body .company_categories_choose .company_categories_minimized p{font-size:14px; left:10px;}
+    .create_body .add_domain .add_d_name p{margin-left:10px; font-size:14px;}
+    .create_body .add_domain .add_d_name input{left:60px; font-size:14px;}
+
+    .create_body .company_categories .all_categories{width:calc(50% - 23px); }
+    .create_body .company_categories .all_categories_2{width:calc(50% - 20px); left:calc(50% - 23px);}
+    .create_body .company_categories .company_username_small{width:40px; }
+
+
+    /** get categories **/
+    .create_body .company_categories .all_categories .category_object{height:auto; min-height:40px; display:block;}
+    .create_body .company_categories .all_categories .category_object p{position:relative; font-size:14px; left:10px;}
+}
+
+
+
+
+
+

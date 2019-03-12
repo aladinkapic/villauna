@@ -1,0 +1,72 @@
+.categories_w{position:relative; left:0px; top:0px; width:100%; padding-top:30px; padding-bottom:30px; background:#fff; border-radius:3px; margin-top:30px;}
+
+
+.categories_w .single_category{position:relative; left:30px; top:0px; width:calc(100% - 60px); height:40px; border:1px solid rgba(0,0,0,0.1);}
+.categories_w .single_category0{border-top:0px;}
+.categories_w .single_category0:hover{background:#e0f3ff;}
+.categories_w .single_category1{margin-top:30px;}
+.categories_w .single_category .category_icon{position:absolute; left:0px; top:0px; width:40px; height:40px; border-right:1px solid rgba(0,0,0,0.1); text-align:center; vertical-align:middle;}
+.categories_w .single_category .category_icon i{position:relative;  margin-top:11px; font-size:18px;}
+.categories_w .single_category p{font-family:poppins_r; margin-left:60px; margin-top:0px; padding-top:8px;}
+
+.categories_w .single_category .category_r_icons{position:absolute; right:0px; top:0px; width:110px; height:40px; border-left:1px solid rgba(0,0,0,0.1); text-align:center;}
+.categories_w .single_category .category_r_icons0{width:220px;}
+.categories_w .single_category .category_r_icons2{right:110px;}
+.categories_w .single_category .category_r_icons i{position:relative;  margin-top:11px; font-size:18px;}
+.categories_w .single_category .category_r_icons:hover{cursor:pointer;}
+.categories_w .single_category .category_r_icons:hover .fa-eye{color:#0097FF; }
+.categories_w .single_category .category_r_icons:hover .fa-trash-alt{color:#FF0D53;}
+
+.categories_w .single_category .category_r_icons0 p{font-family:poppins_m; margin-top:0px; margin-left:0px;}
+.categories_w .single_category .category_r_icons0:hover p{color:#0097FF;}
+
+.categories_w .single_category1 input{position:absolute; left:220px; top:0px; width:calc(100% - 440px); height:100%; border:none; background:none; outline:none; padding-left:20px; font-family:poppins_m;}
+.categories_w .single_category12 input{left:0px; width:calc(100% - 220px);}
+.categories_w .single_category .category_r_icons input{position:absolute; left:0px; top:0px; width:100%; height:100%; border:none; background:#00ecbc; color:#fff; font-family:poppins_m; font-size:16px;}
+.categories_w .single_category .category_r_icons input:hover{cursor:pointer;}
+.categories_w .single_category1 .category_icon{width:220px;}
+.categories_w .single_category1 .category_icon input{position:absolute; left:0px; top:0px; width:100%; height:100%; border:none; background:none; outline:none; padding-left:20px; font-family:poppins_m;}
+
+
+.categories_w  .insert_object input:focus,
+.categories_w  .insert_object textarea:focus{box-shadow: 0 0 2pt 1pt #0097FF; outline:none; }
+
+.categories_w  .insert_object{position:relative; left:29px; top:0px; width:calc(100% - 60px);  border:1px solid rgba(0,0,0,0.1);}
+.categories_w  .insert_object .object_image{position:absolute; left:15px; top:15px; width:280px; height:420px; border:1px solid rgba(0,0,0,0.1);}
+.categories_w  .insert_object .object_image img{position:absolute; left:0px; top:0px; right:0px; bottom:0px; max-width:100%; max-height:100%; margin:auto;}
+
+.categories_w  .insert_object .object_image .object_image_w{position:absolute; opacity:0; transition:all 0.2s; left:0px; top:0px; width:100%; height:100%; background:rgba(0,0,0,0.3); text-align:center;}
+.categories_w  .insert_object .object_image:hover .object_image_w{opacity:1; cursor:pointer;}
+.categories_w  .insert_object .object_image .object_image_w i{font-size:40px; margin-top:190px; color:#0097FF;}
+
+.categories_w  .insert_object .object_name_price{position:relative; left:320px; width:calc(100% - 340px); height:420px; margin-top:15px;}
+.categories_w  .insert_object .object_name_price .object_name{position:relative; left:0px; top:0px; width:100%; height:40px; border:1px solid rgba(0,0,0,0.1);}
+.categories_w  .insert_object .object_name_price .object_name input{position:absolute; left:0px; top:0px; width:100%; height:100%; border:none; background:none; padding-left:20px; font-family:poppins_m;}
+
+.categories_w  .insert_object .object_name_price .title_of_input{position:relative; left:0px; top:0px; width:100%; height:40px; }
+.categories_w  .insert_object .object_name_price .title_of_input p{font-family:poppins_r; margin:0px; position:absolute; top:8px;}
+
+
+
+.categories_w  .insert_object .object_extra_details{position:relative; left:0px; top:0px; width:100%;  margin-top:30px;}
+.categories_w  .insert_object .object_extra_details .single_object_property{position:relative; left:15px; top:0px; width:calc(100% - 36px); height:40px; border:1px solid rgba(0,0,0,0.1);}
+.categories_w  .insert_object .object_extra_details .single_object_property input{position:absolute; left:0px; top:0px; width:100%; height:100%; border:none; background:none; padding-left:20px; font-family:poppins_r;}
+
+.categories_w  .insert_object .object_extra_details .single_object_property_title{position:relative; left:15px; top:0px; width:calc(100% - 30px); height:40px; }
+.categories_w  .insert_object .object_extra_details .single_object_property_title p{font-family:poppins_r; margin:0px; position:absolute; top:8px; margin-left:0px;}
+
+
+.categories_w  .insert_object .short_desc{position:relative; left:15px; top:0px; width:calc(100% - 36px); height:200px; border:1px solid rgba(0,0,0,0.1); margin-top:30px; margin-bottom:30px;}
+.categories_w  .insert_object .short_desc textarea{position:absolute; left:0px; top:0px; width:100%; height:100%; padding-left:20px; font-family:poppins_r; padding-top:8px; border:none; padding-right:20px; resize:none;}
+
+
+.categories_w  .insert_object .save_button{position:relative; left:15px; top:0px; width:calc(100% - 36px); height:40px; margin-bottom:30px;}
+.categories_w  .insert_object .save_button .button{position:absolute; right:0px; top:0px; width:220px; height:40px; background:#0097FF;}
+.categories_w  .insert_object .save_button .button input{position:absolute; left:0px; top:0px; width:100%; height:100%; border:none; background:none; font-family:poppins_m; font-size:16px; color:#fff;}
+.categories_w  .insert_object .save_button .button input:hover{cursor:pointer;}
+
+
+
+
+
+

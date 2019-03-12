@@ -1,0 +1,137 @@
+#calender_w{position:relative; left:0px; top:0px; width:100%; margin-top:30px; padding:20px; border-radius:3px; background:#fff; margin-bottom:100px;}
+
+#calender_w #calender{position:relative; left:0px; top:0px; width:100%; height:700px;}
+
+
+/** choose company **/
+
+#calender_w .get_company{position:relative; left:0px; top:0px; width:calc(100% - 4px); margin-bottom:20px; height:40px; border:2px solid rgba(0,0,0,0.15);}
+#calender_w .get_company input{position:absolute; left:0px; top:0px; width:calc(100% - 0px); height:100%; border:none; background:none; padding-left:20px; outline:none;}
+
+#calender_w .get_company .get_company_b{position:absolute; right:-2px; top:-2px; width:220px; height:calc(100% + 4px); background:#0097FF;}
+#calender_w .get_company .get_company_b .save_icon_show{display:none; position:absolute; left:0px; top:0px; width:100%; text-align:center;}
+#calender_w .get_company .get_company_b .save_icon_show i{color:#fff; margin-top:12px;}
+#calender_w .get_company .get_company_b input{width:100%; color:#fff; padding:0px; font-family:apple_r; font-size:16px;}
+#calender_w .get_company .get_company_b input:hover,
+#calender_w .get_company .get_company_b i{cursor:pointer;}
+
+#calender_w .get_company .show_companies{position:absolute; left:-2px; top:calc(100% + 2px); display:none; width:calc(100% - 0px); height:300px; border:2px solid rgba(0,0,0,0.1); border-top:none; background:#fff; z-index:1000;}
+#calender_w .get_company .show_companies .single_company{position:relative; left:0px; top:0px; width:100%; height:40px; overflow:auto;}
+#calender_w .get_company .show_companies .single_company:hover{cursor:pointer; background:rgba(0,0,0,0.05);}
+#calender_w .get_company .show_companies .single_company p{position:absolute; left:20px; margin:0px; font-family:apple_t; top:10px;}
+#calender_w .get_company .show_companies .single_company i{position:absolute; right:20px; top:12px;}
+
+
+#calender_w  .display_company{position:relative; left:0px; top:0px; width:100%; height:40px; border:1px solid rgba(0,0,0,0.1); margin-bottom:30px;}
+#calender_w  .display_company .company_name_s{position:absolute; left:0px; top:0px; height:100%; width:calc(50% - 40px); border-right:1px solid rgba(0,0,0,0.1);}
+#calender_w  .display_company .company_name_s2{left:calc(50% - 40px);}
+#calender_w  .display_company .company_name_s p{font-family:apple_r; position:absolute; margin-left:20px; margin-top:10px;}
+#calender_w  .display_company .icon_go_to{position:absolute; right:0px; top:0px; width:80px; height:40px; text-align:center;}
+#calender_w  .display_company .icon_go_to i{margin-top:12px;}
+
+
+
+
+
+/** control buttons on top **/
+
+#calender_w #calender .calender_header{position:relative; left:0px; top:0px; width:100%; height:50px;}
+#calender_w #calender .calender_header .left_buttons{position:absolute; left:0px; top:0px; width:300px; overflow:hidden; height:30px; background:#0097FF; border-radius:3px; display:flex;}
+#calender_w #calender .calender_header .left_buttons .single_link{position:relative; text-align:center; width:33.33%; height:100%; transition:all 0.2s;}
+#calender_w #calender .calender_header .left_buttons .single_link p{color:#fff; font-family:apple_t; font-weight:bold; margin-top:6px;}
+#calender_w #calender .calender_header .left_buttons .single_link1,
+#calender_w #calender .calender_header .left_buttons .single_link2{border-left:1px solid rgba(255,255,255,0.3);}
+#calender_w #calender .calender_header .left_buttons .single_link:hover{cursor:pointer; background:#00ecbc;}
+
+#calender_w #calender .calender_header .right_buttons{width:300px; left:calc(100% - 300px);}
+#calender_w #calender .calender_header .right_buttons .single_link{width:50%;}
+
+
+#calender_w #calender .calender_header .current_month{position:absolute; text-align:center; width:300px; left:calc(50% - 150px); height:30px; top:0px; }
+#calender_w #calender .calender_header .current_month p{font-family:apple_r; font-size:20px; margin-top:3px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** display days on top of calender **/
+
+#calender_w #calender .calender_days{position:relative; display:flex; left:0px; top:0px; width:100%; height:30px; border:1px solid rgba(0,0,0,0.1); border-bottom:none; margin-top:0px;}
+#calender_w #calender .calender_days .day_name{position:relative; left:0px; top:0px; height:100%; border-left:1px solid rgba(0,0,0,0.1); text-align:center; width:calc(14.28% - 1px); }
+#calender_w #calender .calender_days .day_name0{border:none;}
+#calender_w #calender .calender_days .day_name p{font-family:apple_r; margin-top:6px;}
+
+
+
+
+
+
+
+
+/** dynamic calender **/
+
+#calender_w #calender .calender_body{position:relative; left:0px; top:0px; margin-top:0px;  width:100%; height:calc(100% - 80px); display:flex; flex-wrap:wrap; border:1px solid rgba(0,0,0,0.1);}
+#calender_w #calender .calender_body .single_day{position:relative; overflow:hidden; left:0px; top:0px; width:calc(14.28% - 2px); height:calc(16.66% - 1px); }
+#calender_w #calender .calender_body .single_day:hover{background:#e0f3ff; cursor:pointer;}
+#calender_w #calender .calender_body .single_day_b{border-bottom:1px solid rgba(0,0,0,0.1);}
+#calender_w #calender .calender_body .single_day_r{border-right:1px solid rgba(0,0,0,0.1);}
+#calender_w #calender .calender_body .single_day_back1{background:#e0f3ff;}
+
+#calender_w #calender .calender_body .single_day .day_num{position:absolute; right:5px; top:5px; margin:0px; width:20px; height:20px; text-align:right;}
+#calender_w #calender .calender_body .single_day .day_num{margin:0px; font-family:apple_b;}
+#calender_w #calender .calender_body .single_day .day_num_g{color:grey;}
+#calender_w #calender .calender_body .single_day .day_num_b{color:#000; font-weight:bold;}
+
+#calender_w #calender .calender_body .single_day h5{font-family:apple_t; margin:8px 15px; margin-right:30px;}
+#calender_w #calender .calender_body .single_day h5 span{color:#0097FF;}
+/** show single day events **/
+
+#calender_w #calender .calendar_agenda{position:absolute; display:none;  overflow:auto; left:0px; top:50px; width:calc(100% + 0px); padding-top:0px; height:calc(100% - 50px); background:#fff;  border:1px solid rgba(0,0,0,0.1);}
+
+#calender_w #calender .calendar_agenda::-webkit-scrollbar {
+    width: 2px;
+    height:0px;
+}
+
+
+
+#calender_w #calender .calendar_agenda .this_day_details{position:relative; left:15px; top:0px; margin-top:15px; width:calc(100% - 60px); height:60px; text-align:right;}
+#calender_w #calender .calendar_agenda .this_day_details p{font-family:apple_b; margin:0px; font-size:24px; padding-top:14px; display:inline-block; padding-left:20px;}
+
+#calender_w #calender .calendar_agenda .single_agenda_d{position:relative; left:15px; top:0px; margin-top:px; width:calc(100% - 30px); min-height:50px; }
+#calender_w #calender .calendar_agenda .single_agenda_d:hover{cursor:pointer; background:#e0f3ff;}
+#calender_w #calender .calendar_agenda .single_agenda_d .single_a_d_text{position:relative; left:100px; top:0px; width:calc(100% - 120px); }
+#calender_w #calender .calendar_agenda .single_agenda_d .single_a_d_text h4{font-family:apple_r; text-align:justify; margin:0px; padding-top:20px; font-size:22px;}
+#calender_w #calender .calendar_agenda .single_agenda_d .single_a_d_text p{font-family:apple_r; text-align:justify; margin:0px; padding-top:20px; padding-bottom:20px;}
+#calender_w #calender .calendar_agenda .single_agenda_d .single_a_d_text p span{font-size:13px; color:grey; font-weight:bold; margin:0px;}
+#calender_w #calender .calendar_agenda .single_agenda_d .single_a_d_text p span a{margin-left:20px;}
+#calender_w #calender .calendar_agenda .single_agenda_d .single_a_d_text p span a:hover{color:#FF0D53;}
+#calender_w #calender .calendar_agenda .single_agenda_d .single_a_d_text p span .edit_itt:hover{color:#0097FF;}
+
+
+#calender_w #calender .calendar_agenda .single_agenda_d .line{position:absolute; width:4px; left:48px; height:100%; background:rgba(0,0,0,0.1);}
+#calender_w #calender .calendar_agenda .single_agenda_d .out_circle{position:absolute; left:38px; top:calc(50% - 12px); width:24px; height:24px; background:#fff; border-radius:50%;}
+#calender_w #calender .calendar_agenda .single_agenda_d .out_circle .inner_circle{position:absolute; width:10px; height:10px; left:3px; top:3px; border-radius:50%; border:4px solid #0DD0FF;}
+
+#calender_w #calender .calendar_agenda .agenda_form{position:relative; left:15px; top:0px; width:calc(100% - 30px);  margin-top:30px; margin-bottom:30px;}
+#calender_w #calender .calendar_agenda .agenda_form0{height:0px; overflow:hidden;}
+#calender_w #calender .calendar_agenda .agenda_form .agenda_header{position:relative; left:0px; top:0px; width:100%; height:40px; border:1px solid rgba(0,0,0,0.1);}
+#calender_w #calender .calendar_agenda .agenda_form .agenda_text{position:relative; left:0px; top:0px; margin-top:15px; width:100%; height:200px; border:1px solid rgba(0,0,0,0.1);}
+#calender_w #calender .calendar_agenda .agenda_form .agenda_header input,
+#calender_w #calender .calendar_agenda .agenda_form .agenda_text textarea{position:absolute; left:0px; top:0px; width:100%; height:100%; border:none; background:none; resize:none; padding-left:20px; font-family:apple_r;}
+#calender_w #calender .calendar_agenda .agenda_form .agenda_text textarea{padding-top:10px;}
+
+#calender_w #calender .calendar_agenda .agenda_form .save_it{position:relative; left:0px; top:0px; margin-top:15px; width:100%; height:40px; background:#0097FF; text-align:center;}
+#calender_w #calender .calendar_agenda .agenda_form .save_it:hover{cursor:pointer;}
+#calender_w #calender .calendar_agenda .agenda_form .save_it p{font-family:apple_r; color:#fff; font-size:18px; padding-top:10px;}
+

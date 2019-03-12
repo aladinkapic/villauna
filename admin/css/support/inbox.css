@@ -1,0 +1,69 @@
+section .section_body{left:0px; width:100%; top:20px; height:calc(100% - 141px);}
+
+.inbox_part{position:absolute; left:px; top:0px; width:calc(100% - 0px); height:calc(100% - 0px); }
+
+.inbox_part .inbox_left{position:absolute; left:0px; top:0px; width:360px; height:100%; background:rgba(255,255,255,0.4); overflow:auto;}
+.inbox_part .inbox_left .small_header{position:relative; left:0px; top:0px; width:100%; height:40px;  margin-top:10px; margin-bottom:10px;}
+.inbox_part .inbox_left .small_header h3{position:absolute; left:20px; font-family:apple_t; margin-top:12px; font-size:22px;}
+.inbox_part .inbox_left .small_header h4{position:absolute; left:20px; font-family:apple_t; margin-top:12px;}
+
+.inbox_part .inbox_left .show_user{position:relative; left:0px; top:0px; width:100%; height:70px;}
+.inbox_part .inbox_left .current_user{background:#3f6ad8; border-radius:3px;}
+.inbox_part .inbox_left .show_user:hover{background:#e0f3ff; cursor:pointer;}
+.inbox_part .inbox_left .current_user:hover{background:#3f6ad8; border-radius:3px;}
+.inbox_part .inbox_left .show_user .show_user_img{position:absolute; left:35px; top:12px; width:40px; height:40px; border-radius:50%; overflow:hidden; border:3px solid #fff;}
+.inbox_part .inbox_left .show_user .show_user_img img{position:absolute; left:0px; top:0px; right:0px; bottom:0px; max-width:100%; max-height:100%;}
+.inbox_part .inbox_left .show_user h5{font-family:apple_t; position:absolute; left:100px; font-size:18px; margin-top:15px;}
+.inbox_part .inbox_left .show_user p{font-family:apple_t; position:absolute; top:30px; left:100px; font-size:14px; margin-top:10px;}
+
+.inbox_part .inbox_left .current_user h5, .inbox_part .inbox_left .current_user p{color:#fff;}
+.inbox_part .inbox_left .show_user .singal_circle{position:absolute; left:69px; top:40px; width:8px; height:8px; background:red; border-radius:50%; border:3px solid #fff;}
+.inbox_part .inbox_left .show_user .singal_circle_on{background:#00ecbc;}
+.inbox_part .inbox_left .show_user .singal_circle_off{background:#FF0D53;}
+
+
+
+
+
+    /** right part **/
+.inbox_part .inbox_right{position:absolute; left:360px; width:calc(100% - 360px); top:0px; height:100%; background:#fff;}
+
+/** messages preview **/
+.inbox_part .inbox_right .user_header{position:absolute; left:0px; top:0px; width:100%; height:70px; border-bottom:1px solid rgba(0,0,0,0.1);}
+.inbox_part .inbox_right .user_header .current_user_img {position:absolute; left:35px; top:12px; width:40px; height:40px; border-radius:4px; overflow:hidden; border:3px solid rgba(0,0,0,0.2);}
+.inbox_part .inbox_right .user_header .current_user_img img{position:absolute; left:0px; top:0px; right:0px; bottom:0px; max-width:100%; max-height:100%;}
+.inbox_part .inbox_right .user_header h5{font-family:apple_t; position:absolute; left:100px; font-size:18px; margin-top:15px;}
+.inbox_part .inbox_right .user_header p{font-family:apple_t; position:absolute; top:30px; left:100px; font-size:14px; margin-top:10px;}
+
+.inbox_part .inbox_right .message_part{position:absolute; left:0px; top:72px; width:100%; height:calc(100% - 142px); overflow:auto; }
+.inbox_part .inbox_right .message_part .single_message{position:relative; left:0px; top:0px; width:100%; padding-bottom:12px; min-height:50px;}
+.inbox_part .inbox_right .message_part .single_message .single_message_img{position:absolute; left:35px; top:12px; width:40px; height:40px; border-radius:4px; overflow:hidden; border:3px solid rgba(0,0,0,0.2);}
+.inbox_part .inbox_right .message_part .single_message .single_message_img img{position:absolute; left:0px; top:0px; right:0px; bottom:0px; max-width:100%; max-height:100%;}
+.inbox_part .inbox_right .message_part .single_message .message_text{position:relative; top:12px; margin-bottom:12px; max-width:calc(100% - 120px); width:auto; display:inline-block;  background:#e0f3ff; margin-left:100px; border-radius:10px;}
+.inbox_part .inbox_right .message_part .single_message .message_text p{margin:0px; padding:10px 20px; font-family:apple_t;}
+
+.inbox_part .inbox_right .message_part .single_message_right{text-align:right;}
+.inbox_part .inbox_right .message_part .single_message_right .single_message_img{left:calc(100% - 68px);}
+.inbox_part .inbox_right .message_part .single_message_right .message_text{margin-left:0px; margin-right:90px; text-align:left;}
+
+/** send message **/
+.inbox_part .inbox_right .send_message{position:absolute; left:35px; bottom:15px; width:calc(100% - 70px); border:2px solid rgba(0,0,0,0.15); height:40px; border-radius:4px;}
+.inbox_part .inbox_right .send_message input{position:absolute; left:0px; top:0px; width:100%; height:100%; background:none; border:none; padding-left:20px; font-family:apple_t; font-weight:bold; outline:none;}
+
+
+
+
+@media screen and (max-width: 1000px){
+    .inbox_part{min-height:300px;}
+    .inbox_part .inbox_left{left:-360px;}
+    .inbox_part .inbox_right{left:0px; width:100%;}
+}
+
+
+
+
+
+
+
+
+

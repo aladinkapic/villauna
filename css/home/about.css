@@ -1,0 +1,107 @@
+.about_us{position:relative; left:120px; top:0px; width:calc(100% - 240px);  display:flex; flex-wrap:wrap; height:auto; min-height:920px; }
+.about_us .split_it{position:relative; left:0px; top:0px; width:40%; padding-top:60px; padding-bottom:60px; }
+.about_us .split_it2{width:60%;}
+
+
+.about_us .split_it h4{font-family:poppins_r; font-size:22px; margin-top:0px; margin-bottom:20px; color:#f18024;}
+.about_us .split_it h2{font-family:poppins_r; font-size:34px; margin-top:0px;}
+.about_us .split_it p{font-family:poppins_r; font-size:14px; text-align:justify; color:grey;}
+
+.about_us .split_it .part_with_icon{position:relative; left:0px; top:0px; width:100%; min-height:60px; margin-top:30px;}
+.about_us .split_it .part_with_icon p{margin-left:80px;}
+.about_us .split_it .part_with_icon h5{font-family:poppins_r; margin-left:80px; font-size:20px; margin-bottom:0px;}
+.about_us .split_it .part_with_icon .icon_part{position:absolute; left:0px; top:0px; width:60px; height:60px; text-align:center;}
+.about_us .split_it .part_with_icon .icon_part i{font-size:46px; color:#f18024;}
+
+/** right part **/
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes rotate2 {
+    from {transform: rotate(360deg);}
+    to {transform: rotate(0deg);}
+}
+
+@keyframes rotate3 {
+    from {transform: rotate(360deg);}
+    to {transform: rotate(0deg);}
+}
+
+.about_us .split_it .out_circle{position:absolute; width:620px; height:620px; border:1px solid rgba(0,0,0,0.1); left:calc(50% - 310px); top:calc(50% - 310px); -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%;}
+.about_us .split_it .out_circle .map_circle{position:absolute; left:60px; top:60px; width:calc(100% - 120px); height:calc(100% - 120px); -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%;}
+
+.about_us .split_it .out_circle .small_circle{position:absolute; width:180px; height:180px; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; transition:all 0.2s; border:2px dashed rgba(0,0,0,0.4); border-width:3px; right:80px; top:-120px; background:#fff; overflow:hidden;}
+.about_us .split_it .out_circle .small_circle .circle_shadow{position:absolute; opacity:0; transition:all 0.2s; left:0px; top:0px; width:100%; height:100%; background:rgba(0,0,0,0.4); display:flex; flex-wrap:wrap; justify-content: center; align-items: center; }
+.about_us .split_it .out_circle .small_circle .circle_shadow h4{margin:0px;}
+
+
+.about_us .split_it .out_circle .small_circle:hover{border:2px dashed #f18024;  border-width:3px; cursor:pointer; animation-name: rotate; animation-fill-mode:forwards; animation-duration: 80s;  animation-iteration-count: infinite; animation-timing-function: linear;}
+.about_us .split_it .out_circle .left_circle{width:260px; height:260px; left:-100px; top:300px;}
+.about_us .split_it .out_circle .left_circle:hover{animation-name: rotate3;}
+.about_us .split_it .out_circle .bottom_circle{width:220px; height:220px; right:-120px; top:440px;}
+
+.about_us .split_it .out_circle .small_circle img{position:absolute; left:0px; top:0px; width:100%; transition:all 0.2s;}
+.about_us .split_it .out_circle .small_circle:hover img{animation-name: rotate2; animation-fill-mode:forwards; animation-duration: 80s;  animation-iteration-count: infinite; animation-timing-function: linear; }
+.about_us .split_it .out_circle .left_circle:hover img{animation-name:rotate;}
+
+.about_us .split_it .out_circle .small_circle:hover .circle_shadow{animation-name: rotate2; opacity:1; animation-fill-mode:forwards; animation-duration: 80s;  animation-iteration-count: infinite; animation-timing-function: linear;}
+.about_us .split_it .out_circle .left_circle:hover .circle_shadow{animation-name:rotate;}
+
+/** eight of them **/
+.nine{position:relative; left:200px; top:0px; width:calc(100% - 400px); display:flex; flex-wrap:wrap; margin-bottom:100px;}
+.nine .single_of_nine{position:relative; left:0px; top:0px; width:33.33%; min-height:50px;}
+.nine .single_of_nine img{position:absolute; left:0px; top:0px;}
+.nine .single_of_nine h4{font-family:poppins_r; margin-left:70px; margin-top:-2px; font-size:24px; width:calc(100% - 80px); margin-bottom:10px;}
+.nine .single_of_nine p{font-family:poppins_r; margin-left:70px; color:grey; font-size:15px; width:calc(100% - 80px); margin-top:0px;}
+
+@media only screen and (max-width: 1600px){
+    .about_us .split_it .out_circle{width:520px; height:520px; left:calc(50% - 260px); top:calc(50% - 260px);}
+    .about_us .split_it .out_circle .small_circle{width:160px; height:160px; right:80px; top:-100px;}
+    .about_us .split_it .out_circle .left_circle{width:220px; height:220px; left:-40px; top:300px;}
+    .about_us .split_it .out_circle .bottom_circle{width:190px; height:190px; right:-120px; top:360px;}
+}
+
+@media only screen and (max-width: 1400px){
+    .about_us .split_it{width:100%;}
+    .about_us .split_it2{ padding-bottom:650px;}
+    .nine .single_of_nine{width:50%;}
+}
+
+@media only screen and (max-width: 1200px){
+    .nine{left:80px; width:calc(100% - 160px);}
+}
+
+@media only screen and (max-width: 1000px){
+    .about_us{left:80px; width:calc(100% - 160px);}
+}
+
+@media only screen and (max-width: 800px){
+    .about_us .split_it{padding-bottom:0px; margin:0px;}
+    .about_us .split_it .out_circle{position:relative; border-radius:0px; height:auto; margin:0px; padding:0px; left:0px; width:100%; top:0px; margin-bottom:60px; border:none;}
+    .about_us .split_it .out_circle .map_circle{display:none;}
+    .about_us .split_it .out_circle .small_circle{position:relative; margin:0px; background:red; border-radius:0px; top:0px; left:0px; height:auto; width:100%; border:none; margin-bottom:30px;}
+    .about_us .split_it .out_circle .small_circle img{position:relative;}
+    .about_us .split_it .out_circle .small_circle:hover{animation:none; border:none;}
+    .about_us .split_it .out_circle .small_circle:hover img{animation:none;}
+    .about_us .split_it .out_circle .small_circle:hover .circle_shadow{animation:none;}
+
+    .about_us{left:30px; width:calc(100% - 60px);}
+
+    .nine .single_of_nine{width:100%;}
+}
+
+@media only screen and (max-width: 600px){
+    .nine{left:30px; width:calc(100% - 60px);}
+    .nine .single_of_nine h4,
+    .nine .single_of_nine p{width:calc(100% - 70px);}
+}
+
+
+
+
+
+
+

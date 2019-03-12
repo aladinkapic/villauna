@@ -1,0 +1,137 @@
+.bills_wrapper{position:relative; left:0px; top:30px; width:100%; height:auto; background:#fff; padding-top:30px; border-radius:3px; padding-bottom:30px;}
+
+.search_users{position:relative; left:15px; top:0px; width:calc(100% - 30px); height:40px; margin-bottom:30px; z-index:1000; border:2px solid rgba(0,0,0,0.15); border-radius:0px;}
+.search_users input{position:absolute; left:0px; top:0px; width:calc(100% - 196px); height:100%; border:none; background:none; padding-left:20px; font-family:apple_t; outline:none;}
+.search_users .input_button{position:absolute; right:-2px; top:-2px; width:196px; height:calc(100% + 4px); background:#3f6ad8; text-align:center;}
+.search_users .input_button:hover{cursor:pointer;}
+.search_users .input_button p{color:#fff; font-family:apple_t; font-weight:bold; margin-top:13px;}
+.search_users .input_button input{position:absolute; left:0px; top:0px; width:100%; color:#fff; font-weight:bold; letter-spacing: 2px; height:100%; border:none; background:none; font-family:apple_t; outline:none; padding-left:0px;}
+.search_users .input_button input:hover{cursor:pointer;}
+
+.search_users #results{position:absolute; left:-2px; top:40px; width:calc(100% - 195px); height:300px; background:#fff; border:2px solid rgba(0,0,0,0.15);}
+.search_users #results .single_result{position:relative; left:0px; top:0px; width:100%; height:40px; }
+.search_users #results .single_result:hover{cursor:pointer; background:rgba(0,0,0,0.1);}
+.search_users #results .single_result p{position:absolute; margin:0px; font-family:apple_t; left:20px; top:10px;}
+
+
+
+.bills_wrapper .single_bill{position:relative; left:15px; top:0px; width:calc(100% - 30px); height:35px; border:2px solid rgba(0,0,0,0.15);  border-top:0px;}
+.bills_wrapper .single_bill:hover{cursor:pointer; background:#e0f3ff;}
+.bills_wrapper .single_bill_h{height:45px; background:rgba(0,0,0,0.1); border-top:2px solid rgba(0,0,0,0.15);}
+
+.bills_wrapper .single_bill .single_bill_p{position:relative; left:0px; top:0px; width:calc(33% - 90px); height:100%; display:inline-block; border-right:1px solid rgba(0,0,0,0.1);}
+.bills_wrapper .single_bill .single_bill_p p{font-family:apple_t; margin-left:20px; margin-top:8px;}
+.bills_wrapper .single_bill_h .single_bill_p p{font-weight:bold; margin-top:15px;}
+.bills_wrapper .single_bill .single_bill_total_price i{display:none;}
+
+
+.bills_wrapper .single_bill .single_bill_paid{position:absolute; right:160px; text-align:center; top:0px; width:120px; height:100%; border-right:1px solid rgba(0,0,0,0.1);}
+.bills_wrapper .single_bill .single_bill_paid p{font-family:apple_t; margin-top:8px;}
+.bills_wrapper .single_bill_h .single_bill_paid p{font-weight:bold; margin-top:15px;}
+.bills_wrapper .single_bill .single_bill_paid .green{color:#5cb85c; font-weight:bold;}
+.bills_wrapper .single_bill .single_bill_paid .red{color:#FF0D53; font-weight:bold;}
+.bills_wrapper .single_bill .single_bill_paid p .fa-check{color:#00ecbc; font-size:14px;}
+.bills_wrapper .single_bill .single_bill_paid i{display:none;}
+
+.bills_wrapper .single_bill .single_bill_action{position:absolute; right:0px; top:0px; width:160px; height:100%; text-align:justify;}
+.bills_wrapper .single_bill .single_bill_action p{font-family:apple_t; margin-top:8px; margin-left:24px; display:inline-block; letter-spacing:2px;}
+.bills_wrapper .single_bill .single_bill_action_2{text-align:center;}
+.bills_wrapper .single_bill .single_bill_action_2 p{margin-left:0px;}
+.bills_wrapper .single_bill_h .single_bill_action{text-align:center;}
+.bills_wrapper .single_bill_h .single_bill_action p{font-weight:bold; margin-top:15px; margin-left:0px;}
+.bills_wrapper .single_bill .single_bill_action p i{font-size:15px;}
+.bills_wrapper .single_bill .single_bill_action p i:hover{cursor:pointer;}
+.bills_wrapper .single_bill .single_bill_action p .fa-trash-alt:hover{color:#C52932;}
+.bills_wrapper .single_bill .single_bill_action p .fa-street-view:hover{color:#3f6ad8;}
+.bills_wrapper .single_bill .single_bill_action p .fa-times:hover{color:#FF0D53;}
+.bills_wrapper .single_bill .single_bill_action p .fa-check:hover{color:#00ecbc;}
+.bills_wrapper .single_bill .single_bill_action p .fa-eye:hover{color:#0DD0FF;}
+.bills_wrapper .single_bill .single_bill_action p .fa-trash:hover{color:#FF0D53;}
+
+
+.bills_wrapper .page_numerator{position:relative; left:15px; top:0px; width:calc(100% - 30px); height:36px; border:2px solid rgba(0,0,0,0.1); margin-top:30px;}
+.bills_wrapper .page_numerator .previous{position:absolute; left:0px; top:0px; width:194px; height:100%; text-align:center; border-right:2px solid rgba(0,0,0,0.1);}
+.bills_wrapper .page_numerator .next{left:calc(100% - 194px); border-left:2px solid rgba(0,0,0,0.1); border-right:0px;}
+.bills_wrapper .page_numerator .previous:hover{cursor:pointer; background:#3f6ad8; }
+.bills_wrapper .page_numerator .previous p{font-family:apple_t; margin-top:9px; color:#3f6ad8; font-weight:bold;}
+.bills_wrapper .page_numerator .previous:hover p{color:#fff;}
+
+.bills_wrapper .page_numerator .number_of_sites{position:absolute; left:200px; top:0px; width:calc(100% - 400px); height:100%; text-align:center;}
+.bills_wrapper .page_numerator .number_of_sites .single_number{position:relative; left:0px; top:8px; width:20px; height:20px; display:inline-block; border:1px solid #3f6ad8; border-radius:3px;}
+.bills_wrapper .page_numerator .number_of_sites .single_number p{font-family:apple_t; margin-top:2px; font-size:14px; font-weight:bold;}
+.bills_wrapper .page_numerator .number_of_sites .single_number:hover{background:#3f6ad8; cursor:pointer;}
+.bills_wrapper .page_numerator .number_of_sites .single_number:hover p{color:#fff;}
+
+
+
+
+/*** Services of bill preview ***/
+
+.bills_wrapper{position:relative; left:0px; top:30px; width:100%; height:auto; background:#fff; padding-top:30px; border-radius:3px; padding-bottom:30px;}
+
+.bills_wrapper .single_service{position:relative; left:15px; top:0px; width:calc(100% - 30px); height:40px; border:2px solid rgba(0,0,0,0.15);}
+.bills_wrapper .single_service2{border-top:none;}
+
+.bills_wrapper .single_service .single_service_num{position:absolute; left:0px; top:0px; width:40px; height:40px; border-right:2px solid rgba(0,0,0,0.15); text-align:center;}
+.bills_wrapper .single_service .single_service_num p{font-family:apple_t; font-weight:bold; margin-top:11px;}
+.bills_wrapper .single_service .single_service_part{position:relative; left:40px; top:0px; width:calc(100% - 480px); display:inline-block; height:100%; border-right:2px solid rgba(0,0,0,0.15);}
+.bills_wrapper .single_service .single_service_part2{border:none;}
+.bills_wrapper .single_service .single_service_part3{width:200px; text-align:center;}
+.bills_wrapper .single_service .single_service_part p{position:absolute; font-family: apple_t; margin-left:20px; margin-top:11px;}
+.bills_wrapper .single_service .single_service_part3 p{margin-left:0px; width:100%; text-align:center;}
+
+.bills_wrapper .single_service .single_service_part .status_b{position:absolute; width:120px; height:26px; background:gold; left:calc(50% - 60px); top:7px; border-radius:3px;}
+.bills_wrapper .single_service .single_service_part .status_b2{background:#5cb85c;}
+.bills_wrapper .single_service .single_service_part .status_b p{color:#fff; font-weight:bold; margin-top:4px;}
+
+.bills_wrapper .single_service .switch_it{position:absolute; text-align:center; right:0px; top:0px; width:40px; height:40px; border-left:2px solid rgba(0,0,0,0.15);}
+.bills_wrapper .single_service .switch_it p{font-family:apple_t; font-weight:bold; margin-top:11px;}
+.bills_wrapper .single_service .switch_it p i:hover{color:#0DD0FF; cursor:pointer;}
+
+
+
+
+@media screen and (max-width: 1200px){
+    p{font-size:14px;}
+    .bills_wrapper .single_bill .hash_of_fucking_order{width:calc(100% - 210px);}
+    .bills_wrapper .single_bill .hash_of_fucking_order p{font-size:14px;}
+    .bills_wrapper .single_bill .single_bill_c_2{width:calc(50% - 180px);}
+
+    .bills_wrapper .single_bill .single_bill_paid{width:50px; }
+
+    .bills_wrapper .single_bill .single_bill_paid_0{right:45px; text-align:center;}
+    .bills_wrapper .single_bill .single_bill_total_price{width:120px; position:absolute; left:calc(100% - 340px);}
+    .bills_wrapper .single_bill .single_bill_total_price_0{position:absolute; left:calc(100% - 215px); width:120px; text-align:center;}
+    .bills_wrapper .single_bill .single_bill_total_price p,
+    .bills_wrapper .single_bill .single_bill_total_price_0 p{margin-left:0px;}
+
+
+
+    .bills_wrapper .single_bill .single_bill_paid .paid_header,
+    .bills_wrapper .single_bill .single_bill_total_price .paid_header {display:none;}
+
+    .bills_wrapper .single_bill .single_bill_total_price{text-align:center;}
+    .bills_wrapper .single_bill .single_bill_paid i,
+    .bills_wrapper .single_bill .single_bill_total_price i{display:block; margin-top:16px;}
+
+    .bills_wrapper .single_bill .single_bill_action_0{width:40px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
